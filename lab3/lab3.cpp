@@ -42,7 +42,7 @@ int main(int argc, const char * argv[]) {
     
     for(int j = size - 1; j > size - 6; j--){
         sum = sum + v_weight.at(j);
-        cout<<v_weight[j]<<endl;
+        //cout<<v_weight[j]<<endl;
         
     }
     outFile<<sum<<endl;
