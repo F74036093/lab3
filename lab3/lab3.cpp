@@ -17,17 +17,17 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     
     ifstream inFile("file.in", ios::in);
-    ofstream outFile("file.out", ios::out);
+    //ofstream outFile("file.out", ios::out);
     int size, temp, sum = 0;
     
     if(!inFile){
         cerr<<"failed opening infile"<<endl;
         exit(1);
     }
-    if(!outFile){
+    /*if(!outFile){
         cerr<<"failed opening outfile"<<endl;
         exit(1);
-    }
+    }*/
     
     inFile>>size;
     
@@ -45,7 +45,8 @@ int main(int argc, const char * argv[]) {
         //cout<<v_weight[j]<<endl;
         
     }
-    outFile<<sum<<endl;
+    //outFile<<sum<<endl;
+    cout<<sum<<endl;
     
     
     return 0;
